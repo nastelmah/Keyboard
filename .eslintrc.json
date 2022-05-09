@@ -1,0 +1,22 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "extends": "eslint-config-airbnb-base",
+  "rules": {
+    "import/extensions": [
+      "off",
+      "ignorePackages",
+      {
+        "js": "never"
+      }
+    ],
+    "no-console": ["off", { "allow": ["warn", "error"] }],
+    "no-plusplus": "off"
+  }
+}

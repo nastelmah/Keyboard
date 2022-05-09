@@ -1,0 +1,25 @@
+{
+  "name": "keyboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "lint-start": "npx eslint script.js",
+    "lint-fix": "eslint --fix script.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nastelmah/Keyboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nastelmah/Keyboard/issues"
+  },
+  "homepage": "https://github.com/nastelmah/Keyboard#readme",
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-airbnb-base": "^15.0.0"
+  }
+}
